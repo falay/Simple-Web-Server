@@ -1,0 +1,23 @@
+This ia a Simple Web Server created by Ching Tzu Chen
+
+
+/*** Features: ***/
+1. GET a static object
+2. GET a directory 
+   ( Providing hyperlinks pointing to the location of files and directories )
+3. Execute CGI programs 
+   ( GET method only )
+
+   
+/*** Usage ***/    
+1. make clean all
+2. ./WebServer [Port] [Root directory]
+3. Open the browser and type [Host:Port/WebPage] in URL
+
+Note:
+	A CGI program can be executed by putting the program in the root directory directly,
+	and the attached file name of the CGI program must be ".cgi" or ".sh" or ".php" 
+	
+/*** Verfication ***/
+You can use command: "curl -i [Host:Port/WebPage]" to check the html request header.
+ 
